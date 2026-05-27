@@ -1,12 +1,12 @@
 from rest_framework import serializers
 from django.utils.timesince import timesince
 
-from .models import Category, OfferModel, OfferMediaModel
+from .models import CategoryModel, OfferModel, OfferMediaModel
 
 
 class CategorySerializer(serializers.ModelSerializer):
     class Meta:
-        model = Category
+        model = CategoryModel
         fields = ["id", "category"]
         read_only_fields = fields
 
@@ -50,12 +50,12 @@ class OfferReadSerializer(serializers.ModelSerializer):
 
 class OfferWriteSerializer(serializers.ModelSerializer):
     category = serializers.PrimaryKeyRelatedField(
-        queryset=Category.objects.all(), required=True
+        queryset=CategoryModel.objects.all(), required=True
     )
     uploaded_images = serializers.ListField(
         child=serializers.ImageField(allow_empty_file=False, use_url=False),
         write_only=True,
-        required=True,
+        required=False,
     )
 
     class Meta:

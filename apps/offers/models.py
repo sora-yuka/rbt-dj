@@ -10,7 +10,7 @@ class Status(models.TextChoices):
     CANCELLED = "CANCELLED", "Cancelled"
 
 
-class Category(models.Model):
+class CategoryModel(models.Model):
     category = models.CharField(max_length=100, unique=True)
 
     def __str__(self) -> str:
@@ -24,7 +24,7 @@ class OfferModel(models.Model):
     title = models.CharField(max_length=150)
     description = models.TextField()
     category = models.ForeignKey(
-        Category,
+        CategoryModel,
         on_delete=models.SET_NULL,
         null=True,
         blank=True,
