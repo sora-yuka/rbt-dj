@@ -1,4 +1,5 @@
 from rest_framework import serializers
+from django.utils.timesince import timesince
 
 from .models import Category, OfferModel, OfferMediaModel
 
@@ -36,6 +37,15 @@ class OfferReadSerializer(serializers.ModelSerializer):
             "created_at",
             "updated_at",
         ]
+
+    # def to_representation(self, instance: OfferModel):
+    #     representation = super().to_representation(instance)
+    #     if instance.created_at:
+    #         representation["created_at"] = instance.created_at.strftime("%Y-%m-%d %H:%M:%S")
+    #     if instance.updated_at:
+    #         representation["time_since_update"] = f"{timesince(instance.updated_at)} ago"
+    #         representation["updated_at"] =instance.updated_at.strftime("%B %d, %Y at %I:%M %p")
+    #     return representation
 
 
 class OfferWriteSerializer(serializers.ModelSerializer):
