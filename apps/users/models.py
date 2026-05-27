@@ -5,7 +5,7 @@ from django.core.validators import MinValueValidator, MaxValueValidator
 
 class UserModel(AbstractUser):
     username = models.CharField(max_length=150)
-    phone_number = models.CharField(max_length=20, unique=True)
+    phone_number = models.CharField(unique=True)
     profile_photo = models.ImageField(upload_to="profile-pics/", blank=True, null=True)
     reputation_rating = models.DecimalField(
         max_digits=3,
