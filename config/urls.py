@@ -34,4 +34,5 @@ urlpatterns = [
     path("docs/", scheme_view.with_ui()),
     path("api/v1/users/", include("apps.users.urls")),
     path("api/v1/offers/", include("apps.offers.urls")),
+    path("api/v1/deals/", include("apps.deals.urls")),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
