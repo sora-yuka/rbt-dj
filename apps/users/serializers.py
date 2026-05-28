@@ -20,14 +20,6 @@ class UserRegisterSerializer(serializers.ModelSerializer):
             "profile_photo",
         ]
 
-    def validate(self, attrs: dict) -> dict:
-        password = attrs.get("password")
-        password_confirm = attrs.pop("password_confirm")
-
-        if password != password_confirm:
-            raise serializers.ValidationError("Password do not match.")
-        return attrs
-
     def create(self, validated_data: dict) -> UserModel:
         return UserModel.objects.create_user(**validated_data)
 
