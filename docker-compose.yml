@@ -1,0 +1,21 @@
+services:
+  db:
+    image: postgres:17.10-trixie
+    env_file:
+      - .env.docker
+    volumes:
+      - postgre_data:/var/lib/postgresql/data
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env.docker
+    depends_on:
+      - db
+
+volumes:
+  postgre_data:
