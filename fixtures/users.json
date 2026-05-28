@@ -1,182 +1,182 @@
 [
-{
-    "model": "users.usermodel",
-    "pk": 1,
-    "fields": {
-        "password": "pbkdf2_sha256$1200000$6u0jkXfENTr5khNBmlhWzu$63cWOYISx5BlmCGktvvz5fl9V1hcNO4YvVjpXIEhA/c=",
-        "last_login": "2026-05-28T11:56:09.628Z",
-        "is_superuser": true,
-        "first_name": "",
-        "last_name": "",
-        "email": "",
-        "is_staff": true,
-        "is_active": true,
-        "date_joined": "2026-05-28T11:55:41.553Z",
-        "username": "admin",
-        "phone_number": "1",
-        "profile_photo": "",
-        "groups": [],
-        "user_permissions": []
+    {
+        "model": "users.usermodel",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$6u0jkXfENTr5khNBmlhWzu$63cWOYISx5BlmCGktvvz5fl9V1hcNO4YvVjpXIEhA/c=",
+            "last_login": "2026-05-28T11:56:09.628Z",
+            "is_superuser": true,
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2026-05-28T11:55:41.553Z",
+            "username": "admin",
+            "phone_number": "1",
+            "profile_photo": "",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.usermodel",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$OyO9WZj9wd2JnemjaEbcAc$qh6fTZg4+EWXvX8Eh7iUecgwSl8B+4gChw2kMEfBHuc=",
+            "last_login": null,
+            "is_superuser": false,
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-05-28T11:59:32Z",
+            "username": "Liam Henderson",
+            "phone_number": "+996700000111",
+            "profile_photo": "",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.usermodel",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$S8iRKPJTNXfikk64v8x5Ld$zZSDfmGrqlTR3LbZQp0NVa90HZaTLPS7Gq0DXz4zJaQ=",
+            "last_login": null,
+            "is_superuser": false,
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-05-28T12:14:04.344Z",
+            "username": "Elena Rostova",
+            "phone_number": "+996700000222",
+            "profile_photo": "",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.usermodel",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$BbcYw8cMvK1hD8TZwvhOdF$anCpTIIg3Ae9aB6BTjIA+KVyuiPTNm2kcMwMRrpyiuw=",
+            "last_login": null,
+            "is_superuser": false,
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-05-28T12:14:16.781Z",
+            "username": "Marcus Vance",
+            "phone_number": "+996700000333",
+            "profile_photo": "",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.usermodel",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$ZN1r37Y1DJ0DZfEwx8o9zK$us2DBV+71cut9LtZLva9p2rhmcLiOwEw13924fXcuaA=",
+            "last_login": null,
+            "is_superuser": false,
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-05-28T12:14:28.251Z",
+            "username": "Maya Lin",
+            "phone_number": "+996700000444",
+            "profile_photo": "",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.usermodel",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$rTCDcs7HLPkqbgzGCMZE4A$R3LE7rpZsAtXcEPPjSxOR5LAZoDibEveQK2DUcfVu4c=",
+            "last_login": null,
+            "is_superuser": false,
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-05-28T12:14:39.064Z",
+            "username": "Aura Electronics",
+            "phone_number": "+996700000555",
+            "profile_photo": "",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.usermodel",
+        "pk": 7,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$uoq3NwDiSYAggMzuY1haPc$wHh/bE5K/sm9DTJd/iG8KrwxIo73em5rfO+ZVPOQdw4=",
+            "last_login": null,
+            "is_superuser": false,
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-05-28T12:14:58.884Z",
+            "username": "Apex Tech",
+            "phone_number": "+996700000666",
+            "profile_photo": "",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.usermodel",
+        "pk": 8,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$BU3WjGzHpQ8sLT3oSmrsdC$7HWvGWvvOG7pTq0+zNz+M5yM+YC7/cU4Go5LugM1Ihg=",
+            "last_login": null,
+            "is_superuser": false,
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-05-28T12:15:09.032Z",
+            "username": "Nova Gadgets",
+            "phone_number": "+996700000777",
+            "profile_photo": "",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.usermodel",
+        "pk": 9,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$alvJFR4yaX0qzwPOkrUm2U$lD6mHSsEdCQEEVp6YxrE9kvjz9XLueYfu5wYMZV3xmA=",
+            "last_login": null,
+            "is_superuser": false,
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-05-28T12:15:19.281Z",
+            "username": "Quantum Labs",
+            "phone_number": "+996700000888",
+            "profile_photo": "",
+            "groups": [],
+            "user_permissions": []
+        }
     }
-},
-{
-    "model": "users.usermodel",
-    "pk": 2,
-    "fields": {
-        "password": "pbkdf2_sha256$1200000$OyO9WZj9wd2JnemjaEbcAc$qh6fTZg4+EWXvX8Eh7iUecgwSl8B+4gChw2kMEfBHuc=",
-        "last_login": null,
-        "is_superuser": false,
-        "first_name": "",
-        "last_name": "",
-        "email": "",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2026-05-28T11:59:32Z",
-        "username": "Liam Henderson",
-        "phone_number": "+996700000111",
-        "profile_photo": "",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "users.usermodel",
-    "pk": 3,
-    "fields": {
-        "password": "pbkdf2_sha256$1200000$S8iRKPJTNXfikk64v8x5Ld$zZSDfmGrqlTR3LbZQp0NVa90HZaTLPS7Gq0DXz4zJaQ=",
-        "last_login": null,
-        "is_superuser": false,
-        "first_name": "",
-        "last_name": "",
-        "email": "",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2026-05-28T12:14:04.344Z",
-        "username": "Elena Rostova",
-        "phone_number": "+996700000222",
-        "profile_photo": "",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "users.usermodel",
-    "pk": 4,
-    "fields": {
-        "password": "pbkdf2_sha256$1200000$BbcYw8cMvK1hD8TZwvhOdF$anCpTIIg3Ae9aB6BTjIA+KVyuiPTNm2kcMwMRrpyiuw=",
-        "last_login": null,
-        "is_superuser": false,
-        "first_name": "",
-        "last_name": "",
-        "email": "",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2026-05-28T12:14:16.781Z",
-        "username": "Marcus Vance",
-        "phone_number": "+996700000333",
-        "profile_photo": "",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "users.usermodel",
-    "pk": 5,
-    "fields": {
-        "password": "pbkdf2_sha256$1200000$ZN1r37Y1DJ0DZfEwx8o9zK$us2DBV+71cut9LtZLva9p2rhmcLiOwEw13924fXcuaA=",
-        "last_login": null,
-        "is_superuser": false,
-        "first_name": "",
-        "last_name": "",
-        "email": "",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2026-05-28T12:14:28.251Z",
-        "username": "Maya Lin",
-        "phone_number": "+996700000444",
-        "profile_photo": "",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "users.usermodel",
-    "pk": 6,
-    "fields": {
-        "password": "pbkdf2_sha256$1200000$rTCDcs7HLPkqbgzGCMZE4A$R3LE7rpZsAtXcEPPjSxOR5LAZoDibEveQK2DUcfVu4c=",
-        "last_login": null,
-        "is_superuser": false,
-        "first_name": "",
-        "last_name": "",
-        "email": "",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2026-05-28T12:14:39.064Z",
-        "username": "Aura Electronics",
-        "phone_number": "+996700000555",
-        "profile_photo": "",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "users.usermodel",
-    "pk": 7,
-    "fields": {
-        "password": "pbkdf2_sha256$1200000$uoq3NwDiSYAggMzuY1haPc$wHh/bE5K/sm9DTJd/iG8KrwxIo73em5rfO+ZVPOQdw4=",
-        "last_login": null,
-        "is_superuser": false,
-        "first_name": "",
-        "last_name": "",
-        "email": "",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2026-05-28T12:14:58.884Z",
-        "username": "Apex Tech",
-        "phone_number": "+996700000666",
-        "profile_photo": "",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "users.usermodel",
-    "pk": 8,
-    "fields": {
-        "password": "pbkdf2_sha256$1200000$BU3WjGzHpQ8sLT3oSmrsdC$7HWvGWvvOG7pTq0+zNz+M5yM+YC7/cU4Go5LugM1Ihg=",
-        "last_login": null,
-        "is_superuser": false,
-        "first_name": "",
-        "last_name": "",
-        "email": "",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2026-05-28T12:15:09.032Z",
-        "username": "Nova Gadgets",
-        "phone_number": "+996700000777",
-        "profile_photo": "",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "users.usermodel",
-    "pk": 9,
-    "fields": {
-        "password": "pbkdf2_sha256$1200000$alvJFR4yaX0qzwPOkrUm2U$lD6mHSsEdCQEEVp6YxrE9kvjz9XLueYfu5wYMZV3xmA=",
-        "last_login": null,
-        "is_superuser": false,
-        "first_name": "",
-        "last_name": "",
-        "email": "",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2026-05-28T12:15:19.281Z",
-        "username": "Quantum Labs",
-        "phone_number": "+996700000888",
-        "profile_photo": "",
-        "groups": [],
-        "user_permissions": []
-    }
-}
 ]
