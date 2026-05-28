@@ -1,5 +1,5 @@
 from django.db import transaction
-from django.db.models import Count, Sum, Q
+from django.db.models import Count, Q
 from django.utils import timezone
 from rest_framework import viewsets, status
 from rest_framework.views import APIView
