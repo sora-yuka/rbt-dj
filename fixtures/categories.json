@@ -1,0 +1,23 @@
+[
+    {
+        "model": "offers.categorymodel",
+        "pk": 1,
+        "fields": {
+            "category": "electronics"
+        }
+    },
+    {
+        "model": "offers.categorymodel",
+        "pk": 2,
+        "fields": {
+            "category": "clothings"
+        }
+    },
+    {
+        "model": "offers.categorymodel",
+        "pk": 3,
+        "fields": {
+            "category": "books"
+        }
+    }
+]

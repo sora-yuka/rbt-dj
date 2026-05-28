@@ -1,0 +1,86 @@
+[
+    {
+        "model": "offers.offermodel",
+        "pk": 1,
+        "fields": {
+            "owner": 2,
+            "title": "Sony WH-1000XM4 Wireless Headphones",
+            "description": "Excellent condition, midnight blue color. Includes original carrying case, USB-C charging cable, and 3.5mm audio jack. Battery life still lasts up to 30 hours. Active Noise Cancelling works perfectly.",
+            "category": 1,
+            "desired_offer": null,
+            "status": "ACTIVE",
+            "created_at": "2026-05-28T12:03:02.731Z",
+            "updated_at": "2026-05-28T12:03:02.731Z"
+        }
+    },
+    {
+        "model": "offers.offermodel",
+        "pk": 2,
+        "fields": {
+            "owner": 2,
+            "title": "iPad Air (4th Generation) - 64GB Wi-Fi",
+            "description": "Space Gray, pristine condition with no scratches. Screen protector applied since day one. Comes with the original box and a generic magnetic folio case.",
+            "category": 1,
+            "desired_offer": "Looking to exchange for a comparable Windows laptop (e.g., ThinkPad or Dell XPS) for coding.",
+            "status": "ACTIVE",
+            "created_at": "2026-05-28T12:03:48.450Z",
+            "updated_at": "2026-05-28T12:03:48.450Z"
+        }
+    },
+    {
+        "model": "offers.offermodel",
+        "pk": 3,
+        "fields": {
+            "owner": 2,
+            "title": "Mechanical Keyboard (Keychron K2 V2)",
+            "description": "RGB backlight with Gateron Brown tactile switches. Aluminum frame, Mac/Windows compatible. Lightly used for two months, thoroughly cleaned.",
+            "category": 1,
+            "desired_offer": "Will trade for an Apple Magic Trackpad 2 in black or white.",
+            "status": "ACTIVE",
+            "created_at": "2026-05-28T12:04:28.704Z",
+            "updated_at": "2026-05-28T12:04:28.704Z"
+        }
+    },
+    {
+        "model": "offers.offermodel",
+        "pk": 4,
+        "fields": {
+            "owner": 2,
+            "title": "Samsung 27\" CRG5 Curved Gaming Monitor",
+            "description": "240Hz refresh rate, 4ms response time, 1080p resolution. G-Sync compatible. Perfect for competitive gaming. No dead pixels. Moving out of town and need it gone.",
+            "category": 1,
+            "desired_offer": "",
+            "status": "ACTIVE",
+            "created_at": "2026-05-28T12:04:43.959Z",
+            "updated_at": "2026-05-28T12:04:43.959Z"
+        }
+    },
+    {
+        "model": "offers.offermodel",
+        "pk": 5,
+        "fields": {
+            "owner": 2,
+            "title": "Fujifilm X-T30 Mirrorless Camera (Body Only)",
+            "description": "26.1MP APS-C sensor, black body. Minor cosmetic wear on the bottom plate, but mechanically and optically perfect. Includes two batteries and a dual charger.",
+            "category": 1,
+            "desired_offer": "Open to exchanging for a DJI Mini 3 Pro or Mini 4 Pro drone setup.",
+            "status": "ACTIVE",
+            "created_at": "2026-05-28T12:05:05.760Z",
+            "updated_at": "2026-05-28T12:05:05.760Z"
+        }
+    },
+    {
+        "model": "offers.offermodel",
+        "pk": 6,
+        "fields": {
+            "owner": 2,
+            "title": "Nintendo Switch OLED Model (White",
+            "description": "Brand new, factory sealed in box. Includes dock, Joy-Cons, grip, and cables. Received as a gift but I already own one.",
+            "category": 1,
+            "desired_offer": "Would love to trade for a PlayStation 5 Slim (Digital or Disc edition), willing to add cash on top if necessary.",
+            "status": "ACTIVE",
+            "created_at": "2026-05-28T12:05:26.869Z",
+            "updated_at": "2026-05-28T12:05:26.869Z"
+        }
+    }
+]
