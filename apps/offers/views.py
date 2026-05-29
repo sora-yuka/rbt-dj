@@ -1,5 +1,5 @@
 from rest_framework import viewsets, status
-from rest_framework.decorators import action
+from rest_framework.generics import ListAPIView
 from rest_framework.response import Response
 from rest_framework.request import Request
 from rest_framework.permissions import IsAuthenticatedOrReadOnly, IsAuthenticated
@@ -48,3 +48,15 @@ class OfferViewSet(viewsets.ModelViewSet):
 
         read_serializer = OfferReadSerializer(updated_instance, context=self.get_serializer_context())
         return Response(read_serializer.data, status=status.HTTP_200_OK)
+
+
+class MyOffersListView(ListAPIView):
+    serializer_class = OfferReadSerializer
+    permission_classes = [IsAuthenticated]
+
+    def get_queryset(self):
+        return (
+            OfferModel.objects.filter(owner=self.request.user)
+            .select_related("category", "owner")
+            .prefetch_related("media")
+        )
