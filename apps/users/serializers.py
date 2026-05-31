@@ -1,5 +1,6 @@
 from rest_framework import serializers
 from django.contrib.auth.password_validation import validate_password
+from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 
 from .models import UserModel
 
@@ -47,3 +48,16 @@ class UserWriteSerializer(serializers.ModelSerializer):
             "date_joined",
         ]
         read_only_fields = ["id", "reputation_rating", "date_joined"]
+
+
+class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
+    def validate(self, attrs: dict) -> dict:
+        data = super().validate(attrs)
+
+        user = self.user
+
+        if user.profile_photo:
+            data["profile_photo"] = user.profile_photo.url
+        else:
+            data["profile_photo"] = None
+        return data
