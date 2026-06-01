@@ -34,7 +34,7 @@
             "date_joined": "2026-05-28T11:59:32Z",
             "username": "Liam Henderson",
             "phone_number": "+996700000111",
-            "profile_photo": "",
+            "profile_photo": "profile-pics/liam_henderson.jpg",
             "groups": [],
             "user_permissions": []
         }
@@ -54,7 +54,7 @@
             "date_joined": "2026-05-28T12:14:04.344Z",
             "username": "Elena Rostova",
             "phone_number": "+996700000222",
-            "profile_photo": "",
+            "profile_photo": "profile-pics/elena_rostova.jpg",
             "groups": [],
             "user_permissions": []
         }
@@ -74,7 +74,7 @@
             "date_joined": "2026-05-28T12:14:16.781Z",
             "username": "Marcus Vance",
             "phone_number": "+996700000333",
-            "profile_photo": "",
+            "profile_photo": "profile-pics/marcus_vance.jpg",
             "groups": [],
             "user_permissions": []
         }
@@ -94,7 +94,7 @@
             "date_joined": "2026-05-28T12:14:28.251Z",
             "username": "Maya Lin",
             "phone_number": "+996700000444",
-            "profile_photo": "",
+            "profile_photo": "profile-pics/maya_lin.jpg",
             "groups": [],
             "user_permissions": []
         }
@@ -114,7 +114,7 @@
             "date_joined": "2026-05-28T12:14:39.064Z",
             "username": "Aura Electronics",
             "phone_number": "+996700000555",
-            "profile_photo": "",
+            "profile_photo": "profile-pics/aura_electronics.jpg",
             "groups": [],
             "user_permissions": []
         }
@@ -134,7 +134,7 @@
             "date_joined": "2026-05-28T12:14:58.884Z",
             "username": "Apex Tech",
             "phone_number": "+996700000666",
-            "profile_photo": "",
+            "profile_photo": "profile-pics/apex_tech.jpg",
             "groups": [],
             "user_permissions": []
         }
@@ -154,7 +154,7 @@
             "date_joined": "2026-05-28T12:15:09.032Z",
             "username": "Nova Gadgets",
             "phone_number": "+996700000777",
-            "profile_photo": "",
+            "profile_photo": "profile-pics/nova_gadgets.jpg",
             "groups": [],
             "user_permissions": []
         }
@@ -174,7 +174,7 @@
             "date_joined": "2026-05-28T12:15:19.281Z",
             "username": "Quantum Labs",
             "phone_number": "+996700000888",
-            "profile_photo": "",
+            "profile_photo": "profile-pics/quantum_labs.jpg",
             "groups": [],
             "user_permissions": []
         }
