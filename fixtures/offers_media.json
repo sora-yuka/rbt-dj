@@ -1,0 +1,130 @@
+[
+  {
+    "model": "offers.offermediamodel",
+    "pk": 1,
+    "fields": {
+      "offer": 1,
+      "file": "offers/offer_1/sony_wx_1000xm4.jpg"
+    }
+  },
+  {
+    "model": "offers.offermediamodel",
+    "pk": 2,
+    "fields": {
+      "offer": 2,
+      "file": "offers/offer_2/ipad_air.jpg"
+    }
+  },
+  {
+    "model": "offers.offermediamodel",
+    "pk": 3,
+    "fields": {
+      "offer": 3,
+      "file": "offers/offer_3/iphone_13_pro.jpg"
+    }
+  },
+  {
+    "model": "offers.offermediamodel",
+    "pk": 4,
+    "fields": {
+      "offer": 4,
+      "file": "offers/offer_4/sony_wx_1000xm4.jpg"
+    }
+  },
+  {
+    "model": "offers.offermediamodel",
+    "pk": 5,
+    "fields": {
+      "offer": 5,
+      "file": "offers/offer_5/keychron-k2.jpg"
+    }
+  },
+  {
+    "model": "offers.offermediamodel",
+    "pk": 6,
+    "fields": {
+      "offer": 6,
+      "file": "offers/offer_6/kindle.jpg"
+    }
+  },
+  {
+    "model": "offers.offermediamodel",
+    "pk": 7,
+    "fields": {
+      "offer": 7,
+      "file": "offers/offer_7/go_pro.jpg"
+    }
+  },
+  {
+    "model": "offers.offermediamodel",
+    "pk": 8,
+    "fields": {
+      "offer": 8,
+      "file": "offers/offer_8/anker_737.jpg"
+    }
+  },
+  {
+    "model": "offers.offermediamodel",
+    "pk": 9,
+    "fields": {
+      "offer": 9,
+      "file": "offers/offer_9/ipad_mini.jpg"
+    }
+  },
+  {
+    "model": "offers.offermediamodel",
+    "pk": 10,
+    "fields": {
+      "offer": 10,
+      "file": "offers/offer_10/logitech_g_pro.jpg"
+    }
+  },
+  {
+    "model": "offers.offermediamodel",
+    "pk": 11,
+    "fields": {
+      "offer": 11,
+      "file": "offers/offer_11/razer_blackshark.jpg"
+    }
+  },
+  {
+    "model": "offers.offermediamodel",
+    "pk": 12,
+    "fields": {
+      "offer": 12,
+      "file": "offers/offer_12/blue_yeti.jpg"
+    }
+  },
+  {
+    "model": "offers.offermediamodel",
+    "pk": 13,
+    "fields": {
+      "offer": 13,
+      "file": "offers/offer_13/samsung_watch_5.jpg"
+    }
+  },
+  {
+    "model": "offers.offermediamodel",
+    "pk": 14,
+    "fields": {
+      "offer": 14,
+      "file": "offers/offer_14/fujifilm.jpg"
+    }
+  },
+  {
+    "model": "offers.offermediamodel",
+    "pk": 15,
+    "fields": {
+      "offer": 15,
+      "file": "offers/offer_15/magick_trackpad.jpg"
+    }
+  },
+  {
+    "model": "offers.offermediamodel",
+    "pk": 16,
+    "fields": {
+      "offer": 16,
+      "file": "offers/offer_16/razer_seiren.jpg"
+    }
+  }
+]
