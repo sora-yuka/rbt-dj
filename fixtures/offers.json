@@ -8,7 +8,7 @@
             "description": "Excellent condition, midnight blue color. Includes original carrying case, USB-C charging cable, and 3.5mm audio jack. Battery life still lasts up to 30 hours. Active Noise Cancelling works perfectly.",
             "category": 1,
             "desired_offer": null,
-            "status": "ACTIVE",
+            "status": "TRADED",
             "created_at": "2026-05-28T12:03:02.731Z",
             "updated_at": "2026-05-28T12:03:02.731Z"
         }
@@ -31,75 +31,19 @@
         "model": "offers.offermodel",
         "pk": 3,
         "fields": {
-            "owner": 2,
-            "title": "Mechanical Keyboard (Keychron K2 V2)",
-            "description": "RGB backlight with Gateron Brown tactile switches. Aluminum frame, Mac/Windows compatible. Lightly used for two months, thoroughly cleaned.",
-            "category": 1,
-            "desired_offer": "Will trade for an Apple Magic Trackpad 2 in black or white.",
-            "status": "ACTIVE",
-            "created_at": "2026-05-28T12:04:28.704Z",
-            "updated_at": "2026-05-28T12:04:28.704Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 4,
-        "fields": {
-            "owner": 2,
-            "title": "Samsung 27\" CRG5 Curved Gaming Monitor",
-            "description": "240Hz refresh rate, 4ms response time, 1080p resolution. G-Sync compatible. Perfect for competitive gaming. No dead pixels. Moving out of town and need it gone.",
-            "category": 1,
-            "desired_offer": "",
-            "status": "ACTIVE",
-            "created_at": "2026-05-28T12:04:43.959Z",
-            "updated_at": "2026-05-28T12:04:43.959Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 5,
-        "fields": {
-            "owner": 2,
-            "title": "Fujifilm X-T30 Mirrorless Camera (Body Only)",
-            "description": "26.1MP APS-C sensor, black body. Minor cosmetic wear on the bottom plate, but mechanically and optically perfect. Includes two batteries and a dual charger.",
-            "category": 1,
-            "desired_offer": "Open to exchanging for a DJI Mini 3 Pro or Mini 4 Pro drone setup.",
-            "status": "ACTIVE",
-            "created_at": "2026-05-28T12:05:05.760Z",
-            "updated_at": "2026-05-28T12:05:05.760Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 6,
-        "fields": {
-            "owner": 2,
-            "title": "Nintendo Switch OLED Model (White",
-            "description": "Brand new, factory sealed in box. Includes dock, Joy-Cons, grip, and cables. Received as a gift but I already own one.",
-            "category": 1,
-            "desired_offer": "Would love to trade for a PlayStation 5 Slim (Digital or Disc edition), willing to add cash on top if necessary.",
-            "status": "ACTIVE",
-            "created_at": "2026-05-28T12:05:26.869Z",
-            "updated_at": "2026-05-28T12:05:26.869Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 7,
-        "fields": {
             "owner": 3,
             "title": "iPhone 13 Pro (128GB, Graphite)",
             "description": "Excellent condition, always kept in a case. Battery health is at 88%. Includes original box and charging cable.",
             "category": 1,
             "desired_offer": "Looking for a high-end Android tablet or iPad Air.",
             "status": "ACTIVE",
-            "created_at": "2026-05-29T01:10:00.000Z",
-            "updated_at": "2026-05-29T01:10:00.000Z"
+            "created_at": "2026-05-29T01:10:00Z",
+            "updated_at": "2026-05-29T01:10:00Z"
         }
     },
     {
         "model": "offers.offermodel",
-        "pk": 8,
+        "pk": 4,
         "fields": {
             "owner": 3,
             "title": "Sony WH-1000XM4 Headphones",
@@ -107,69 +51,13 @@
             "category": 1,
             "desired_offer": "",
             "status": "ACTIVE",
-            "created_at": "2026-05-29T01:12:00.000Z",
-            "updated_at": "2026-05-29T01:12:00.000Z"
+            "created_at": "2026-05-29T01:12:00Z",
+            "updated_at": "2026-05-29T01:12:00Z"
         }
     },
     {
         "model": "offers.offermodel",
-        "pk": 9,
-        "fields": {
-            "owner": 3,
-            "title": "Levi's 511 Slim Fit Jeans (32x30)",
-            "description": "Dark wash, brand new with tags. Ordered the wrong size online and missed the return window.",
-            "category": 2,
-            "desired_offer": "Open to trading for the same pair in 33x30, or a cool denim jacket.",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T01:15:00.000Z",
-            "updated_at": "2026-05-29T01:15:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 10,
-        "fields": {
-            "owner": 3,
-            "title": "Patagonia Better Sweater Fleece (Medium)",
-            "description": "Oatmeal color, worn a handful of times. No pilling, excellent condition.",
-            "category": 2,
-            "desired_offer": "",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T01:18:00.000Z",
-            "updated_at": "2026-05-29T01:18:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 11,
-        "fields": {
-            "owner": 3,
-            "title": "Dune by Frank Herbert (Deluxe Hardcover)",
-            "description": "Beautiful collector's edition with stained edges. Read once, spine is perfectly intact.",
-            "category": 3,
-            "desired_offer": "Want to trade for other sci-fi hardcovers, specifically looking for Hyperion Cantos.",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T01:20:00.000Z",
-            "updated_at": "2026-05-29T01:20:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 12,
-        "fields": {
-            "owner": 3,
-            "title": "Atomic Habits by James Clear",
-            "description": "Paperback copy. Minor highlighting on the first two chapters, otherwise clean.",
-            "category": 3,
-            "desired_offer": "",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T01:22:00.000Z",
-            "updated_at": "2026-05-29T01:22:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 13,
+        "pk": 5,
         "fields": {
             "owner": 4,
             "title": "Mechanical Keyboard (Keychron K2)",
@@ -177,13 +65,13 @@
             "category": 1,
             "desired_offer": "Looking for a logitech MX Master 3S mouse.",
             "status": "ACTIVE",
-            "created_at": "2026-05-29T02:00:00.000Z",
-            "updated_at": "2026-05-29T02:00:00.000Z"
+            "created_at": "2026-05-29T02:00:00Z",
+            "updated_at": "2026-05-29T02:00:00Z"
         }
     },
     {
         "model": "offers.offermodel",
-        "pk": 14,
+        "pk": 6,
         "fields": {
             "owner": 4,
             "title": "Kindle Paperwhite (11th Gen)",
@@ -191,69 +79,13 @@
             "category": 1,
             "desired_offer": "",
             "status": "ACTIVE",
-            "created_at": "2026-05-29T02:05:00.000Z",
-            "updated_at": "2026-05-29T02:05:00.000Z"
+            "created_at": "2026-05-29T02:05:00Z",
+            "updated_at": "2026-05-29T02:05:00Z"
         }
     },
     {
         "model": "offers.offermodel",
-        "pk": 15,
-        "fields": {
-            "owner": 4,
-            "title": "Nike Air Max 90 (Size 10)",
-            "description": "Infrared colorway. Worn twice outdoors, virtually no wear on the soles.",
-            "category": 2,
-            "desired_offer": "Interested in Adidas Ultraboosts in the same size.",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T02:10:00.000Z",
-            "updated_at": "2026-05-29T02:10:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 16,
-        "fields": {
-            "owner": 4,
-            "title": "Carhartt WIP Beanie (Black)",
-            "description": "One size fits all. Never worn, tag is still attached.",
-            "category": 2,
-            "desired_offer": "",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T02:12:00.000Z",
-            "updated_at": "2026-05-29T02:12:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 17,
-        "fields": {
-            "owner": 4,
-            "title": "Thinking, Fast and Slow by Daniel Kahneman",
-            "description": "Softcover edition. Good condition with some creasing on the spine.",
-            "category": 3,
-            "desired_offer": "Any interesting books on behavioral economics or psychology.",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T02:15:00.000Z",
-            "updated_at": "2026-05-29T02:15:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 18,
-        "fields": {
-            "owner": 4,
-            "title": "Sapiens: A Brief History of Humankind",
-            "description": "Yuval Noah Harari bestseller. Clean pages, no dog-ears.",
-            "category": 3,
-            "desired_offer": "",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T02:18:00.000Z",
-            "updated_at": "2026-05-29T02:18:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 19,
+        "pk": 7,
         "fields": {
             "owner": 5,
             "title": "GoPro Hero 10 Black",
@@ -261,13 +93,13 @@
             "category": 1,
             "desired_offer": "",
             "status": "ACTIVE",
-            "created_at": "2026-05-29T03:00:00.000Z",
-            "updated_at": "2026-05-29T03:00:00.000Z"
+            "created_at": "2026-05-29T03:00:00Z",
+            "updated_at": "2026-05-29T03:00:00Z"
         }
     },
     {
         "model": "offers.offermodel",
-        "pk": 20,
+        "pk": 8,
         "fields": {
             "owner": 5,
             "title": "Anker 737 Power Bank (PowerCore 24K)",
@@ -275,69 +107,13 @@
             "category": 1,
             "desired_offer": "Smaller 10,000mAh power bank plus some cash.",
             "status": "ACTIVE",
-            "created_at": "2026-05-29T03:05:00.000Z",
-            "updated_at": "2026-05-29T03:05:00.000Z"
+            "created_at": "2026-05-29T03:05:00Z",
+            "updated_at": "2026-05-29T03:05:00Z"
         }
     },
     {
         "model": "offers.offermodel",
-        "pk": 21,
-        "fields": {
-            "owner": 5,
-            "title": "North Face McMurdo Parka (Large)",
-            "description": "Heavy-duty winter coat, down-filled and waterproof. Kept me warm through two heavy winters.",
-            "category": 2,
-            "desired_offer": "",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T03:10:00.000Z",
-            "updated_at": "2026-05-29T03:10:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 22,
-        "fields": {
-            "owner": 5,
-            "title": "Champion Reverse Weave Hoodie (XL)",
-            "description": "Classic grey hoodie. Heavyweight cotton, slightly oversized fit.",
-            "category": 2,
-            "desired_offer": "A similar heavyweight hoodie in size Large.",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T03:12:00.000Z",
-            "updated_at": "2026-05-29T03:12:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 23,
-        "fields": {
-            "owner": 5,
-            "title": "Project Hail Mary by Andy Weir",
-            "description": "Hardcover first edition. Incredible sci-fi read, perfect shape.",
-            "category": 3,
-            "desired_offer": "",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T03:15:00.000Z",
-            "updated_at": "2026-05-29T03:15:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 24,
-        "fields": {
-            "owner": 5,
-            "title": "The Silent Patient by Alex Michaelides",
-            "description": "Psychological thriller paperback. Read once on vacation.",
-            "category": 3,
-            "desired_offer": "Any other mystery/thriller fiction novels.",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T03:18:00.000Z",
-            "updated_at": "2026-05-29T03:18:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 25,
+        "pk": 9,
         "fields": {
             "owner": 6,
             "title": "iPad Mini 6 (64GB, Wi-Fi, Space Gray)",
@@ -345,13 +121,13 @@
             "category": 1,
             "desired_offer": "Would love to trade for a standard 10.9-inch iPad or an entry-level laptop.",
             "status": "ACTIVE",
-            "created_at": "2026-05-29T04:00:00.000Z",
-            "updated_at": "2026-05-29T04:00:00.000Z"
+            "created_at": "2026-05-29T04:00:00Z",
+            "updated_at": "2026-05-29T04:00:00Z"
         }
     },
     {
         "model": "offers.offermodel",
-        "pk": 26,
+        "pk": 10,
         "fields": {
             "owner": 6,
             "title": "Logitech G Pro X Superlight Mouse",
@@ -359,69 +135,13 @@
             "category": 1,
             "desired_offer": "",
             "status": "ACTIVE",
-            "created_at": "2026-05-29T04:04:00.000Z",
-            "updated_at": "2026-05-29T04:04:00.000Z"
+            "created_at": "2026-05-29T04:04:00Z",
+            "updated_at": "2026-05-29T04:04:00Z"
         }
     },
     {
         "model": "offers.offermodel",
-        "pk": 27,
-        "fields": {
-            "owner": 6,
-            "title": "Dr. Martens 1460 Smooth Leather Boots (Size 9)",
-            "description": "Black 8-eyelet classic boots. Only worn to break them in, but they're slightly too tight for me.",
-            "category": 2,
-            "desired_offer": "Same boots in size 10, or upscale leather loafers.",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T04:10:00.000Z",
-            "updated_at": "2026-05-29T04:10:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 28,
-        "fields": {
-            "owner": 6,
-            "title": "Uniqlo Oversized Airism Tee (Medium, Olive)",
-            "description": "Brand new, still packaged. Bought multiple colors and decided I don't need this shade.",
-            "category": 2,
-            "desired_offer": "",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T04:12:00.000Z",
-            "updated_at": "2026-05-29T04:12:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 29,
-        "fields": {
-            "owner": 6,
-            "title": "The Hobbit & Lord of the Rings Box Set",
-            "description": "4-volume paperback pocket edition box set. Leatherette covers. Looks beautiful on a shelf.",
-            "category": 3,
-            "desired_offer": "A comprehensive fantasy world map or graphic novels.",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T04:20:00.000Z",
-            "updated_at": "2026-05-29T04:20:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 30,
-        "fields": {
-            "owner": 6,
-            "title": "Educated by Tara Westover",
-            "description": "Hardcover memoir. Compelling story, condition is practically new.",
-            "category": 3,
-            "desired_offer": "",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T04:22:00.000Z",
-            "updated_at": "2026-05-29T04:22:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 31,
+        "pk": 11,
         "fields": {
             "owner": 7,
             "title": "Razer BlackShark V2 Pro Wireless Headset",
@@ -429,13 +149,13 @@
             "category": 1,
             "desired_offer": "",
             "status": "ACTIVE",
-            "created_at": "2026-05-29T05:01:00.000Z",
-            "updated_at": "2026-05-29T05:01:00.000Z"
+            "created_at": "2026-05-29T05:01:00Z",
+            "updated_at": "2026-05-29T05:01:00Z"
         }
     },
     {
         "model": "offers.offermodel",
-        "pk": 32,
+        "pk": 12,
         "fields": {
             "owner": 7,
             "title": "Blue Yeti USB Microphone (Blackout Edition)",
@@ -443,69 +163,13 @@
             "category": 1,
             "desired_offer": "A compact audio interface (Focusrite Scarlett Solo or similar).",
             "status": "ACTIVE",
-            "created_at": "2026-05-29T05:05:00.000Z",
-            "updated_at": "2026-05-29T05:05:00.000Z"
+            "created_at": "2026-05-29T05:05:00Z",
+            "updated_at": "2026-05-29T05:05:00Z"
         }
     },
     {
         "model": "offers.offermodel",
-        "pk": 33,
-        "fields": {
-            "owner": 7,
-            "title": "Adidas Tiro 21 Track Pants (Small)",
-            "description": "Classic black with white stripes. Slim fit, breathable athletic fabric. Gently used.",
-            "category": 2,
-            "desired_offer": "",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T05:10:00.000Z",
-            "updated_at": "2026-05-29T05:10:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 34,
-        "fields": {
-            "owner": 7,
-            "title": "Zara Faux Leather Jacket (Medium)",
-            "description": "Biker style jacket. Fits quite slim. Looks great, only worn a few times for nights out.",
-            "category": 2,
-            "desired_offer": "A bomber jacket or utility jacket in Medium.",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T05:12:00.000Z",
-            "updated_at": "2026-05-29T05:12:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 35,
-        "fields": {
-            "owner": 7,
-            "title": "The Alchemist by Paulo Coelho",
-            "description": "Anniversary paperback edition. Inspiring read, excellent condition.",
-            "category": 3,
-            "desired_offer": "",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T05:15:00.000Z",
-            "updated_at": "2026-05-29T05:15:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 36,
-        "fields": {
-            "owner": 7,
-            "title": "Grit: The Power of Passion and Perseverance",
-            "description": "Angela Duckworth hardcover. Highly influential psychology book.",
-            "category": 3,
-            "desired_offer": "Self-development books (e.g., Deep Work, Essentialism).",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T05:18:00.000Z",
-            "updated_at": "2026-05-29T05:18:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 37,
+        "pk": 13,
         "fields": {
             "owner": 8,
             "title": "Samsung Galaxy Watch 5 (44mm, Bluetooth)",
@@ -513,13 +177,13 @@
             "category": 1,
             "desired_offer": "Trade for an equivalent Fitbit or Garmin running watch.",
             "status": "ACTIVE",
-            "created_at": "2026-05-29T06:00:00.000Z",
-            "updated_at": "2026-05-29T06:00:00.000Z"
+            "created_at": "2026-05-29T06:00:00Z",
+            "updated_at": "2026-05-29T06:00:00Z"
         }
     },
     {
         "model": "offers.offermodel",
-        "pk": 38,
+        "pk": 14,
         "fields": {
             "owner": 8,
             "title": "Fujifilm Instax Mini 11 (Sky Blue)",
@@ -527,69 +191,13 @@
             "category": 1,
             "desired_offer": "",
             "status": "ACTIVE",
-            "created_at": "2026-05-29T06:03:00.000Z",
-            "updated_at": "2026-05-29T06:03:00.000Z"
+            "created_at": "2026-05-29T06:03:00Z",
+            "updated_at": "2026-05-29T06:03:00Z"
         }
     },
     {
         "model": "offers.offermodel",
-        "pk": 39,
-        "fields": {
-            "owner": 8,
-            "title": "Ray-Ban Classic Wayfarer Sunglasses",
-            "description": "Black acetate frames, G-15 green lenses. Fits medium-sized faces. Carrying case included.",
-            "category": 2,
-            "desired_offer": "Clubmaster style sunglasses or premium polarized eyewear.",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T06:08:00.000Z",
-            "updated_at": "2026-05-29T06:08:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 40,
-        "fields": {
-            "owner": 8,
-            "title": "Gymshark Arrival Shorts (Large, Pack of 2)",
-            "description": "One black, one navy blue. 7-inch inseam, lightweight material without liners.",
-            "category": 2,
-            "desired_offer": "",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T06:11:00.000Z",
-            "updated_at": "2026-05-29T06:11:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 41,
-        "fields": {
-            "owner": 8,
-            "title": "Babel by R.F. Kuang",
-            "description": "Hardcover dark academia speculative historical fiction. Minor shelf wear on dust jacket.",
-            "category": 3,
-            "desired_offer": "",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T06:15:00.000Z",
-            "updated_at": "2026-05-29T06:15:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 42,
-        "fields": {
-            "owner": 8,
-            "title": "Zero to One by Peter Thiel",
-            "description": "Hardcover notes on startups and how to build the future. Clean pages.",
-            "category": 3,
-            "desired_offer": "The Lean Startup by Eric Ries.",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T06:18:00.000Z",
-            "updated_at": "2026-05-29T06:18:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 43,
+        "pk": 15,
         "fields": {
             "owner": 9,
             "title": "Apple Magic Trackpad (White)",
@@ -597,13 +205,13 @@
             "category": 1,
             "desired_offer": "Apple Magic Mouse 2.",
             "status": "ACTIVE",
-            "created_at": "2026-05-29T07:00:00.000Z",
-            "updated_at": "2026-05-29T07:00:00.000Z"
+            "created_at": "2026-05-29T07:00:00Z",
+            "updated_at": "2026-05-29T07:00:00Z"
         }
     },
     {
         "model": "offers.offermodel",
-        "pk": 44,
+        "pk": 16,
         "fields": {
             "owner": 9,
             "title": "Razer Seiren Mini Condenser Mic",
@@ -611,64 +219,8 @@
             "category": 1,
             "desired_offer": "",
             "status": "ACTIVE",
-            "created_at": "2026-05-29T07:02:00.000Z",
-            "updated_at": "2026-05-29T07:02:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 45,
-        "fields": {
-            "owner": 9,
-            "title": "Arc'teryx Word Head Toque (Beanie)",
-            "description": "Reversible wool/acrylic blend beanie. Crimson/Burgundy colorway. Very warm.",
-            "category": 2,
-            "desired_offer": "Any beanie from Ganni or Acne Studios.",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T07:06:00.000Z",
-            "updated_at": "2026-05-29T07:06:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 46,
-        "fields": {
-            "owner": 9,
-            "title": "Dickies 874 Original Work Pants (30x32)",
-            "description": "Khaki color, stiff durable twill fabric. Classic skate/streetwear essential.",
-            "category": 2,
-            "desired_offer": "",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T07:10:00.000Z",
-            "updated_at": "2026-05-29T07:10:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 47,
-        "fields": {
-            "owner": 9,
-            "title": "The Creative Act: A Way of Being by Rick Rubin",
-            "description": "Beautiful cloth-bound hardcover edition. Great philosophical thoughts on the creative process.",
-            "category": 3,
-            "desired_offer": "Art coffee table books or musical biographies.",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T07:15:00.000Z",
-            "updated_at": "2026-05-29T07:15:00.000Z"
-        }
-    },
-    {
-        "model": "offers.offermodel",
-        "pk": 48,
-        "fields": {
-            "owner": 9,
-            "title": "Meditations by Marcus Aurelius",
-            "description": "Gregory Hays translation (the best modern translation). Paperback copy in solid condition.",
-            "category": 3,
-            "desired_offer": "",
-            "status": "ACTIVE",
-            "created_at": "2026-05-29T07:18:00.000Z",
-            "updated_at": "2026-05-29T07:18:00.000Z"
+            "created_at": "2026-05-29T07:02:00Z",
+            "updated_at": "2026-05-29T07:02:00Z"
         }
     }
 ]
