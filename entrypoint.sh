@@ -16,6 +16,7 @@ echo "Collecting fixed data and static files..."
 python manage.py loaddata fixtures/users.json
 python manage.py loaddata fixtures/categories.json
 python manage.py loaddata fixtures/offers.json
+python manage.py loaddata fixtures/offers_media.json
 python manage.py loaddata fixtures/deals.json
 python manage.py collectstatic --noinput
 
