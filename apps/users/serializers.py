@@ -56,6 +56,7 @@ class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
 
         user = self.user
 
+        data["username"] = user.username
         if user.profile_photo:
             data["profile_photo"] = user.profile_photo.url
         else:
