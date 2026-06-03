@@ -15,7 +15,7 @@ class OfferViewSet(viewsets.ModelViewSet):
 
     def get_queryset(self) -> OfferModel:
         return (
-            OfferModel.objects.all()
+            OfferModel.objects.filter(status="active")
             .select_related("category", "owner")
             .prefetch_related("media")
         )
