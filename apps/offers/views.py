@@ -14,8 +14,14 @@ class OfferViewSet(viewsets.ModelViewSet):
     permission_classes = [IsAuthenticatedOrReadOnly, IsOwnerOrReadOnly]
 
     def get_queryset(self) -> OfferModel:
+        if self.action == "retrieve":
+            return (
+                OfferModel.objects.all()
+                .select_related("category", "owner")
+                .prefetch_related("media")
+            )
         return (
-            OfferModel.objects.filter(status="active")
+            OfferModel.objects.filter(status="ACTIVE")
             .select_related("category", "owner")
             .prefetch_related("media")
         )

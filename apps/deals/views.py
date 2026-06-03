@@ -8,6 +8,7 @@ from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated, AllowAny
 from rest_framework.request import Request
 
+from apps.offers.models import Status as OfferStatus
 from .models import OfferDealModel, DealStatus, OfferModel
 from .serializers import DealReadSerializer, DealWriteSerializer
 
@@ -74,8 +75,8 @@ class OfferDealViewSet(viewsets.ModelViewSet):
             deal.completed_at = timezone.now()
             deal.save(update_fields=["status", "completed_at"])
 
-            deal.initiator_offer.status = "TRADED"
-            deal.responder_offer.status = "TRADED"
+            deal.initiator_offer.status = OfferStatus.TRADED
+            deal.responder_offer.status = OfferStatus.TRADED
             deal.initiator_offer.save(update_fields=["status"])
             deal.responder_offer.save(update_fields=["status"])
 

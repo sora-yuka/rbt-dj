@@ -6,8 +6,7 @@ UserModel = get_user_model()
 
 class Status(models.TextChoices):
     ACTIVE = "ACTIVE", "Active"
-    COMPLETED = "COMPLETED", "Completed"
-    CANCELLED = "CANCELLED", "Cancelled"
+    TRADED = "TRADED", "Traded"
 
 
 class CategoryModel(models.Model):

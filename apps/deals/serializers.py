@@ -1,6 +1,7 @@
 from django.db.models import Q
 from rest_framework import serializers
 
+from apps.offers.models import Status
 from apps.offers.serializers import OfferReadSerializer
 from .models import OfferDealModel, DealStatus, OfferModel
 
@@ -58,7 +59,7 @@ class DealWriteSerializer(serializers.ModelSerializer):
                 "You cannot propose a barter deal using items you both own."
             )
 
-        if init_offer.status != "ACTIVE" or resp_offer.status != "ACTIVE":
+        if init_offer.status != Status.ACTIVE or resp_offer.status != Status.ACTIVE:
             raise serializers.ValidationError(
                 "Both offers must be marked as AVAILABLE to initiate a deal."
             )

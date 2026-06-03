@@ -41,6 +41,7 @@ class OfferReadSerializer(serializers.ModelSerializer):
     def to_representation(self, instance: OfferModel):
         representation = super().to_representation(instance)
         representation["owner_photo"] = instance.owner.profile_photo.url
+        representation["phone"] = instance.owner.phone_number
         if instance.created_at:
             representation["created_at"] = instance.created_at.strftime("%d %b, %Y")
         if instance.updated_at:
